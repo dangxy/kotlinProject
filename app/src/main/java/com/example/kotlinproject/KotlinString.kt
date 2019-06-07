@@ -31,7 +31,7 @@ fun main(args: Array<String>) {
      * 1. !! 可以为空
      * 2. ? 不为空的时候
      * Exception in thread "main" kotlin.KotlinNullPointerException
-     * at com.example.kotlinproject.KotlinStirngKt.main(KotlinStirng.kt:13)
+     * at com.example.kotlinproject.KotlinStirngKt.main(KotlinString.kt:13)
      */
 
     var list: ArrayList<String>? = null
