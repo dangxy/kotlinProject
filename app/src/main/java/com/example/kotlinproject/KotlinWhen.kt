@@ -29,3 +29,10 @@ fun getTypeByName(type: Int): String {
         else -> "world"
     }
 }
+
+
+fun describe (obj :Any) :String =
+    when(obj){
+        1 -> "one"
+        else -> "unknown"
+    }
