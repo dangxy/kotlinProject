@@ -29,8 +29,8 @@ class  Child2 : Parent(),Grand{
     }
 }
 fun main(args: Array<String>) {
-    var child  = Child()
-  //  child.name()
+    var child = Child()
+    //  child.name()
 
     var child2 = Child2()
     child2.name()
