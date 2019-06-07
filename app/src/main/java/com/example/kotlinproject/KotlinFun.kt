@@ -8,8 +8,12 @@ fun main(args: Array<String>) {
     typeOverLoad.type("hello",1)
 
 
-    TypeOverLoad.obj.age= 12
-    TypeOverLoad.obj.name = "world"
+    TypeOverLoad.Student.age= 12
+    TypeOverLoad.Student.name = "world"
+
+    StaticMethod.age
+    StaticMethod.name
+
 
 }
 
@@ -24,8 +28,15 @@ open class TypeOverLoad {
             println("name = $name")
         }
     }
-    object obj {
+    object Student {
         var name = "hello"
         var age = 11
+    }
+}
+
+class StaticMethod{
+    companion object{
+        const val name = "HELLO"
+        const val age = 11
     }
 }
