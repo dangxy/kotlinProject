@@ -31,8 +31,8 @@ fun getTypeByName(type: Int): String {
 }
 
 
-fun describe (obj :Any) :String =
-    when(obj){
+fun describe(obj: Any): String =
+    when (obj) {
         1 -> "one"
         else -> "unknown"
     }
